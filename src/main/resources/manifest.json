@@ -1,20 +1,19 @@
 {
-    "Group": "HytaleModding",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.0",
-    "Description": "Description of your plugin",
+    "Group": "Forreach",
+    "Name": "ForreachBunkers",
+    "Version": "0.4.2",
+    "Description": "Adds lead,toxic fields and bunkers",
     "Authors": [
         {
-            "Name": "Your Name",
-            "Email": "your.email@example.com",
-            "Url": "https://your-website.com"
+            "Name": "Forreach",
+            "Email": "foreachwho@gmail.com"
         }
     ],
-    "Website": "https://your-plugin-website.com",
+    "Website": "",
     "DisabledByDefault": false,
-    "IncludesAssetPack": false,
+    "IncludesAssetPack": true,
     "Dependencies": {},
     "OptionalDependencies": {},
-    "ServerVersion": "*",
-    "Main": "dev.hytalemodding.ExamplePlugin"
+    "ServerVersion": "2026.03.26-89796e57b",
+    "Main": "Forreach.Bunkers.ForreachBunkers"
 }
