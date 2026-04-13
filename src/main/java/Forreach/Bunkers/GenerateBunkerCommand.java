@@ -26,7 +26,7 @@ public class GenerateBunkerCommand extends AbstractCommand {
             Store<EntityStore> store = playerRef.getStore();
             World currentWorld = store.getExternalData().getWorld();
 
-            int output = new SpawnBunker().MainLoop(currentWorld,0,0,25,false);
+            int output = new SpawnBunker().MainLoop(currentWorld,0,0,25);
             if (output == 0) context.sendMessage(Message.raw("Success" ));
             if (output == 1) context.sendMessage(Message.raw("World load failure.Check the logs for more details" ));
             if (output == 2) context.sendMessage(Message.raw("Prefab load failure.Check the logs for more details" ));

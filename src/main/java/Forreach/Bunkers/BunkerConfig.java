@@ -11,11 +11,14 @@ public class BunkerConfig {
                 .append(new KeyedCodec<>("BunkerPosition", Codec.INT_ARRAY),
                         (config, value) -> config.BunkerPosition = value, // Setter
                         (config) -> config.BunkerPosition).add() // Getter
+                .append(new KeyedCodec<>("InstanceUID", Codec.STRING),
+                        (config, value) -> config.InstanceUID = value, // Setter
+                        (config) -> config.InstanceUID).add() // Getter
                 .build();
         private boolean isBunkerGenerated = false;
         private int[] BunkerPosition = new int[] {};
-        public BunkerConfig() {
-        }
+        private String InstanceUID = "";
+        public BunkerConfig() {}
         // Getters
         public boolean getBunkerGenerated() {
             return isBunkerGenerated;
@@ -23,6 +26,9 @@ public class BunkerConfig {
         public int[] getBunkerPosition() {
                 return BunkerPosition;
         }
+        public String getInstanceUID() {
+        return InstanceUID;
+    }
         // Setters
         public void setBunkerGenerated(boolean someValue) {
             this.isBunkerGenerated = someValue;
@@ -30,4 +36,7 @@ public class BunkerConfig {
         public void setBunkerPosition(int[] someValue) {
                 this.BunkerPosition = someValue;
         }
+        public void setInstanceUID(String someValue) {
+        this.InstanceUID = someValue;
+    }
 }

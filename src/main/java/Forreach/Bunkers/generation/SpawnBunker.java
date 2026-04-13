@@ -34,7 +34,7 @@ public class SpawnBunker {
             new String[] {"BunkerRooms/RoomLeadForgeSmall.prefab.json"};//Guarantees at least one room of such type per path
     PrefabStore prefabStore = PrefabStore.get();
     Random random = new Random();
-    public int MainLoop(final World world, int MainX, int MainZ,int MaxRooms,boolean GenerateReturnPortal) {
+    public int MainLoop(final World world, int MainX, int MainZ,int MaxRooms) {
         //Giving numbers between 0 and 99
         //Default seed
         //IntList SeedList = IntList.of(0,1,2,3);
@@ -82,7 +82,7 @@ public class SpawnBunker {
 
             }
         };
-        GeneratePrefabList(MainX,MainZ,MaxRooms,GenerateReturnPortal);
+        GeneratePrefabList(MainX,MainZ,MaxRooms);
         int i = 0;
         //Placing corridors
         while (i < PrefabsList.length){
@@ -145,7 +145,7 @@ public class SpawnBunker {
         }
     }
 
-    private void GeneratePrefabList(int x, int z,int MaxRooms,boolean GenerateReturnPortal) {
+    private void GeneratePrefabList(int x, int z,int MaxRooms) {
         int[][] KeyGrid = {
                 //x/z/-x/-z
                 {1, 0, 1, 0}, // 0 - Corridor X
@@ -264,13 +264,13 @@ public class SpawnBunker {
             RoomsList.set(i,room);}
         }
         List<BlockSelection> NecPrefabList = ListPrefabsInDirectory("NecessaryRooms");
-        List<BlockSelection> AdditionalRooms = ListPrefabsInDirectory("AdditionallRooms");
+        //List<BlockSelection> AdditionalRooms = ListPrefabsInDirectory("AdditionalRooms");
         Set<Integer> usedIndices = new HashSet<>();
         i = -1;
-        if (GenerateReturnPortal && AdditionalRooms != null){
-            RoomsList.set(0,AdditionalRooms.get(0));
-            usedIndices.add(0);
-        }
+        //if (GenerateReturnPortal && AdditionalRooms != null){
+        //    RoomsList.set(0,AdditionalRooms.get(0));
+        //    usedIndices.add(0);
+        //}
         for (BlockSelection prefab : NecPrefabList){
             i ++;
             int randomIndex;
