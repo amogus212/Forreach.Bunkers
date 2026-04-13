@@ -1,0 +1,10 @@
+{
+  "Interactions": [
+    "Monster_Swing_Attack"
+  ],
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  }
+}

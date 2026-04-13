@@ -1,0 +1,376 @@
+{
+  "Type": "Abstract",
+  "Appearance": {
+    "Compute": "Appearance"
+  },
+  "BreathesInWater": true,
+  "DefaultNPCAttitude": "Hostile",
+  "DefaultPlayerAttitude": "Hostile",
+  "DropList": {
+    "Compute": "DropList"
+  },
+  "KnockbackScale": 0.3,
+  "MaxHealth": {
+    "Compute": "MaxHealth"
+  },
+  "NameTranslationKey": {
+    "Compute": "NameTranslationKey"
+  },
+  "StartState": "Idle",
+  "Instructions": [
+    {
+      "$Comment": "Monster is just walking in bunker",
+      "Enabled": true,
+      "State": "Idle",
+      "Sensor": {
+        "Type": "State",
+        "State": "Idle"
+      },
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "Damage"
+          },
+          "Actions": [
+            {
+              "Type": "AddToHostileTargetMemory"
+            },
+            {
+              "Type": "State",
+              "State": "Combat.Default"
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Reference": "Component_Sensor_Standard_Detection",
+            "Modify": {},
+            "AbsoluteDetectionRange": 0,
+            "HearingRange": 20,
+            "ViewRange": 30,
+            "ViewSector": 180
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": "Aware"
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": ".Default"
+          },
+          "Instructions": [
+            {
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "Type": "Random",
+                  "Actions": [
+                    {
+                      "Action": {
+                        "Type": "State",
+                        "State": ".Wander"
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Action": {
+                        "Type": "State",
+                        "State": ".Wait"
+                      },
+                      "Weight": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": ".Wander"
+          },
+          "Instructions": [
+            {
+              "Continue": true,
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    3,
+                    7
+                  ]
+                },
+                {
+                  "Type": "State",
+                  "State": ".Default"
+                }
+              ]
+            },
+            {
+              "BodyMotion": {
+                "Type": "Wander"
+              }
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": ".Wait"
+          },
+          "ActionsBlocking": true,
+          "Actions": [
+            {
+              "Type": "Timeout",
+              "Delay": [
+                1,
+                5
+              ]
+            },
+            {
+              "Type": "State",
+              "State": ".Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Someone is here",
+      "Sensor": {
+        "Type": "State",
+        "State": "Aware"
+      },
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "Damage"
+          },
+          "Actions": [
+            {
+              "Type": "AddToHostileTargetMemory"
+            },
+            {
+              "Type": "State",
+              "State": "Combat.Default"
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "Target",
+            "Range": 10,
+            "Filters": []
+          },
+          "Actions": [
+            {
+              "Type": "Timeout",
+              "Delay": [
+                1,
+                2
+              ],
+              "Action": {
+                "Type": "State",
+                "State": "Combat.Default"
+              }
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "And",
+            "Sensors": [
+              {
+                "Type": "Target",
+                "Range": {
+                  "Compute": "15"
+                }
+              },
+              {
+                "Type": "Target",
+                "TargetSlot": "LockedTarget",
+                "Filters": [
+                  {
+                    "Type": "MovementState",
+                    "State": "Sprinting"
+                  }
+                ]
+              }
+            ]
+          },
+          "Actions": [
+            {
+              "Type": "Timeout",
+              "Delay": [
+                0,
+                0.1
+              ],
+              "Action": {
+                "Type": "State",
+                "State": "Combat.Default"
+              }
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "Target",
+            "Filters": [
+              {
+                "Type": "LineOfSight"
+              }
+            ]
+          },
+          "HeadMotion": {
+            "Type": "Watch"
+          }
+        },
+        {
+          "Actions": [
+            {
+              "Type": "Timeout",
+              "Delay": [
+                5,
+                6
+              ],
+              "Action": {
+                "Type": "State",
+                "State": "Idle"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "RUN",
+      "Continue": true,
+      "Sensor": {
+        "Type": "State",
+        "State": "Combat"
+      },
+      "Instructions": [
+        {
+          "$Comment": "Attack",
+          "Sensor": {
+            "Type": "Target",
+            "Range": 2.5,
+            "Filters": [
+              {
+                "Type": "LineOfSight"
+              }
+            ]
+          },
+          "HeadMotion": {
+            "Type": "Aim",
+            "RelativeTurnSpeed": 2
+          },
+          "ActionsBlocking": true,
+          "ActionsAtomic": true,
+          "Actions": [
+            {
+              "Type": "Attack",
+              "Attack": "Root_NPC_MonsterHumanoid_Attack"
+            },
+            {
+              "Type": "Timeout",
+              "Delay": [
+                0.1,
+                0.2
+              ]
+            },
+            {
+              "Type": "State",
+              "State": "Aware"
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": ".Default"
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": ".Chase"
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": ".Chase"
+          },
+          "Instructions": [
+            {
+              "Reference": "Component_Instruction_Intelligent_Chase",
+              "Modify": {
+                "_ExportStates": [
+                  "Aware",
+                  "Aware",
+                  "Aware"
+                ],
+                "ViewRange": {
+                  "Compute": "90"
+                },
+                "HearingRange": {
+                  "Compute": "40"
+                },
+                "StopDistance": 1.1,
+                "RelativeSpeed": 1.9
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Parameters": {
+    "Appearance": {
+      "Value": "Bear_Grizzly",
+      "Description": "Model to be used"
+    },
+    "DropList": {
+      "Value": "Empty",
+      "Description": "Drop Items"
+    },
+    "MaxHealth": {
+      "Value": 500,
+      "Description": "Max health for the NPC"
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.MonsterHumanoid.name",
+      "Description": "Translation key for NPC name display"
+    },
+    "MaxSpeed": {
+      "Description": "Parameter MaxSpeed",
+      "TypeHint": "String",
+      "Value": 7
+    }
+  },
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": {
+        "Compute": "MaxSpeed"
+      },
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10
+    }
+  ]
+}

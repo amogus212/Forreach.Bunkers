@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Lead_Block.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Ore_Lead_Block.png",
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "CubeWithModel",
+    "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Lead.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "Flags": {},
+    "RandomRotation": "YawStep90",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "OreCobalt",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Ore_Lead"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Ore",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Blocks/Rock_Shale.png"
+      }
+    ],
+    "BlockSoundSetId": "Ore",
+    "ParticleColor": "#4e4e4e"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ],
+    "Family": [
+      "Cobalt"
+    ]
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

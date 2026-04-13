@@ -1,0 +1,50 @@
+{
+  "Animations": {
+    "SwingLeft": {
+      "ThirdPerson": "NPC/Intelligent/MonsterHumanoid/Animations/Attack/MonsterSwingAttack.blockyanim",
+      "Speed": 1,
+      "Looping": false,
+      "ThirdPersonMoving": "NPC/Intelligent/MonsterHumanoid/Animations/Attack/MonsterSwingAttack.blockyanim",
+      "FirstPerson": "NPC/Intelligent/MonsterHumanoid/Animations/Attack/MonsterSwingAttack.blockyanim",
+      "ThirdPersonFace": "NPC/Intelligent/MonsterHumanoid/Animations/Attack/MonsterSwingAttack.blockyanim"
+    },
+    "LegPunch": {
+      "ThirdPerson": "NPC/Intelligent/MonsterHumanoid/Animations/LegPunch/leg_punch.blockyanim",
+      "ThirdPersonMoving": "NPC/Intelligent/MonsterHumanoid/Animations/LegPunch/leg_punch.blockyanim",
+      "ThirdPersonFace": "NPC/Intelligent/MonsterHumanoid/Animations/LegPunch/leg_punch.blockyanim",
+      "FirstPerson": "NPC/Intelligent/MonsterHumanoid/Animations/LegPunch/leg_punch.blockyanim"
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 2,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.1,
+    "RollDeceleration": 0.1,
+    "X": 3,
+    "XDeceleration": 0.1,
+    "Y": 0.1,
+    "YDeceleration": 0.1,
+    "Z": 0.1,
+    "ZDeceleration": 0.1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bar_Lead_Adam.name"
+  },
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Lead",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "LeadFurnace",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 6
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Items/LeadAdamantiteIngot.png",
+  "Icon": "Icons/ItemsGenerated/Bar_Lead_Adam.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}

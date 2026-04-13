@@ -1,0 +1,34 @@
+{
+  "documentations": [
+    {
+      "group": "Forreach",
+      "id": "BunkerDocumentation",
+      "name": "ForreachBunkers documentation",
+      "enabled": true,
+      "sortIndex": 300,
+      "topics": [
+        {
+          "file": "index.md",
+          "subTopics": [
+            {
+              "file": "Findind a bunker/In your world.md"
+            }
+	    "subTopics": [
+            {
+              "file": "New items/Lead.md"
+            }
+	    "subTopics": [
+            {
+              "file": "New items/Custom tools and items.md"
+            }
+	    "subTopics": [
+            {
+              "file": "Topic fields/ToxicField.md"
+
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

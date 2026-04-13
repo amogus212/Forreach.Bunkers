@@ -1,0 +1,9 @@
+{
+  "Type": "Variant",
+  "Reference": "MonsterTemplate",
+  "Modify": {
+    "Appearance": "MonsterHumanoid",
+    "MaxHealth": 1500,
+    "MaxSpeed": 7
+  }
+}

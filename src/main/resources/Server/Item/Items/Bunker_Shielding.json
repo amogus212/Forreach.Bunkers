@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.BunkerShielding.name"
+  },
+  "Quality": "Common",
+  "Icon": "Icons/ItemsGenerated/BunkerShielding.png",
+  "Set": "Rock_Volcanic",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "BunkerBlocks"
+      }
+    },
+    "RandomRotation": "YawStep90",
+    "Textures": [
+      {
+        "Sides": "Blocks/Bunker_Shielding.png",
+        "UpDown": "Blocks/Bunker_Shielding.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#3f3331"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Volcanic"
+    ]
+  },
+  "Parent": "Rock_Volcanic_Brick",
+  "ResourceTypes": [
+    {
+      "Id": "Rock_Volcanic_Brick"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Rock_Volcanic_Brick_Smooth",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Bar_Lead_Cob"
+      },
+      {
+        "ItemId": "Bar_Lead_Adam"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "LeadForge",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "OutputQuantity": 20
+  }
+}

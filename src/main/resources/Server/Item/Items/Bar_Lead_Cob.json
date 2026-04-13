@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bar_Lead_Cob.name"
+  },
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ore_Lead",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "LeadFurnace",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Items/LeadCobaltIngot.png",
+  "Icon": "Icons/ItemsGenerated/Bar_Lead_Cob.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}

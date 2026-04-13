@@ -1,0 +1,191 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeadWorkshop.name",
+    "Description": ""
+  },
+  "Icon": "Icons/ItemsGenerated/LeadForge.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Models/LeadForge.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/LeadForgePassive.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Processing",
+      "AllowNoInputProcessing": true,
+      "Input": [
+        {
+          "FilterValidIngredients": true
+        }
+      ],
+      "Fuel": [
+        {
+          "ResourceTypeId": "Fuel",
+          "Icon": "Icons/Processing/FuelSlotIcon.png"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Furnace_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Furnace_Bench_Close",
+      "CompletedSoundEventId": "SFX_Furnace_Bench_Processing_Complete",
+      "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
+      "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "ExtraOutput": {
+        "Outputs": [
+          {
+            "ItemId": "Ingredient_Charcoal"
+          }
+        ],
+        "PerFuelItemsConsumed": 2,
+        "IgnoredFuelSources": [
+          {
+            "ItemId": "Ingredient_Charcoal"
+          },
+          {
+            "ItemId": "Ingredient_Fibre"
+          },
+          {
+            "ItemId": "Ingredient_Tree_Sap"
+          }
+        ]
+      },
+      "OutputSlotsCount": 1,
+      "Id": "LeadForge",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 5
+              },
+              {
+                "Quantity": 5,
+                "ItemId": "Ingredient_Bar_Thorium"
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "CraftingTimeReductionModifier": 0.0,
+          "ExtraOutputSlot": 0
+        },
+        {
+          "CraftingTimeReductionModifier": 0,
+          "ExtraInputSlot": 1,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Bar_Lead_Cob",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 3
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3,
+          "ExtraInputSlot": 2
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Processing": {
+          "Looping": true,
+          "Light": {
+            "Color": "#B72"
+          },
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/LeadForgeLit.png",
+              "Weight": 1
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "Torch_Fire",
+              "TargetNodeName": "Fire",
+              "Scale": 1.1,
+              "PositionOffset": {
+                "X": 0.6,
+                "Y": 1.1,
+                "Z": 2.2
+              }
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "CustomModelAnimation": "Blocks/Models/LeadForgeProccesing.blockyanim",
+          "Opacity": "Solid"
+        },
+        "ProcessCompleted": {
+          "Light": {
+            "Color": "#a22"
+          },
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/LeadForgeLit.png",
+              "Weight": 1
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "Looping": true,
+          "CustomModelAnimation": "Blocks/Models/LeadForgeProccesing.blockyanim"
+        }
+      }
+    },
+    "HitboxType": "LeadForgeHitbox",
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#595534",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    },
+    "FlipType": "Symmetric",
+    "RotationYawPlacementOffset": "None",
+    "AllowsMultipleUsers": false
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.28,
+    "Rotation": [
+      25,
+      23,
+      0
+    ],
+    "Translation": [
+      -7,
+      -42
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 1,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

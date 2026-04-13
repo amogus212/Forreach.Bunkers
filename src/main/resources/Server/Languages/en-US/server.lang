@@ -1,0 +1,33 @@
+items.Ore_Lead.name=Lead ore
+items.Ore_Lead.description=Can be combined with some metal bars in a furnace to create metal-lead alloy.Causes a weird felling in your head.
+
+items.Bar_Lead_Cob.name=Cobalt-lead alloy
+items.Bar_Lead_Cob.description=A material from another world,can be used to enhance armor or to create poison-resistant armor on special stations.
+
+items.Bar_Lead_Adam.name=Adamantium-lead alloy
+items.Bar_Lead_Adam.description=A material from another world,can be used to enhance weapons on special stations.
+
+items.Ore_Lead_Block.name=Lead ore block
+
+items.LeadWorkshop.name =Lead forge
+items.LeadFurnace.name=Lead furnace
+items.BunkerShielding.name=Bunker shielding
+
+items.LeadSwordMithril.name =Lead-infused mithril sword
+items.LeadSwordAdamantite.name =Lead-infused adamantium sword
+items.LeadSwordThorium.name =Lead-infused thorim sword
+items.LeadSwordCobalt.name =Lead-infused cobalt sword
+
+items.LeadDaggerCobalt.name =Lead-infused cobalt daggers
+
+items.LeadCobaltCrossbow.name =Lead-infused iron crossbow
+
+items.LeadPickaxeThorium.name =Lead-mixed pickaxe
+
+npcRoles.MonsterHumanoid.name=[REDACTED]
+
+items.PortalKey_ToxicFields.name=Toxic field key
+items.PortalKey_ToxicFields.description=A key to a destroyed world.
+
+portals.ToxicField.name=Toxic field
+portals.ToxicField.description=A place destroyed from portal energy.Has a giant bunker build in center,and lead in

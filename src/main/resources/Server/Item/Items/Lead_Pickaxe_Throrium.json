@@ -1,0 +1,129 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeadPickaxeThorium.name"
+  },
+  "Quality": "Epic",
+  "ItemLevel": 45,
+  "Parent": "Tool_Pickaxe_Crude",
+  "Model": "Items/Tools/Pickaxe/Thorium.blockymodel",
+  "Texture": "Items/Lead_Pickaxe_Thorium_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 40,
+    "Input": [
+      {
+        "ItemId": "Tool_Pickaxe_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Bar_Lead_Adam",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Bar_Lead_Cob",
+        "Quantity": 14
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "LeadForge",
+        "Type": "Processing",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Rocks",
+        "Quality": 4
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.34,
+        "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.34,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.2,
+        "GatherType": "OreAdamantite",
+        "Quality": 4
+      },
+      {
+        "Power": 0.1,
+        "GatherType": "OreMithril"
+      },
+      {
+        "GatherType": "BunkerBlocks",
+        "Power": 0.1
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil",
+          "Wood"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "MaxDurability": 500,
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      86,
+      0
+    ],
+    "Translation": [
+      -28,
+      -29
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Lead_Pickaxe_Throrium.png"
+}

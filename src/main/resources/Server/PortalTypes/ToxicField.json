@@ -1,0 +1,9 @@
+{
+  "InstanceId": "ToxicField",
+  "Description": {
+    "DisplayName": "server.portals.ToxicField.name",
+    "FlavorText": "server.portals.ToxicField.description",
+    "ThemeColor": "#60007e",
+    "SplashImage": "DefaultArtwork.png"
+  }
+}

@@ -1,0 +1,33 @@
+items.Ore_Lead.name=Свинцева руда
+items.Ore_Lead.description=Може бути обєднане в пічці з деякими іншими металами щоб створити метал-свинець сплави.Викликає дивне відчуття в голові
+ 
+items.Bar_Lead_Cob.name=Кобальт-свинець сплав
+items.Bar_Lead_Cob.description=Матеріал з іншого світу,може буди використаний щоб покращити броню або створити отруто-захисну броню на спеціальних станціях.
+ 
+items.Bar_Lead_Adam.name=Адамантіум-свинець сплав
+items.Bar_Lead_Adam.description=Матеріал з іншого світу,може буди використаний щоб покращити міцність і атаку зброї на спеціальних станціях.
+
+items.Ore_Lead_Block.name=Блок свинцевої руди
+
+items.LeadWorkshop.name=Свинцева кузня
+items.LeadFurnace.name=Свинцева піч
+items.BunkerShielding.name=Щитовий блок бункера
+
+items.LeadSwordMithril.name =Свинець-покращений мітриловий меч
+items.LeadSwordAdamantite.name =Свинець-покращений адамантіумовий меч
+items.LeadSwordThorium.name =Свинець-покращений торієвий меч
+items.LeadSwordCobalt.name =Свинець-покращений кобальтовий меч
+
+items.LeadDaggerCobalt.name =Свинець-покращені кобальтові клинки
+
+items.LeadCobaltCrossbow.name =Свинець-покращений залізний арбалет
+
+items.LeadPickaxeThorium.name =Свинець-міксована кирка 
+
+npcRoles.MonsterHumanoid.name=[РЕДАКТОВАНО]
+
+items.PortalKey_ToxicFields.name=Ключ токсичних полів
+items.PortalKey_ToxicFields.description=Ключ до знищеного світу.
+
+portals.ToxicField.name=Токсичні поля
+portals.ToxicField.description=Місце знищене портальною енергією.Має великий бункер побудований в центрі,і свинець в озерах навколо
