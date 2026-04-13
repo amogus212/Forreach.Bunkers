@@ -20,7 +20,7 @@ import java.util.Random;
 public class PlayerJoinedEvent {
     public static void onPlayerReady(PlayerReadyEvent event) {
        new PlayerJoinedEvent().TryToGenerateBunker(event);
-        event.getPlayer().sendMessage(Message.raw("Something went wrong if you see this message.Check the logs"));
+        event.getPlayer().sendMessage(Message.raw("Something went wrong if you see this message.World name:" + event.getPlayer().getWorld().getName()));
     }
     private void TryToGenerateBunker(PlayerReadyEvent event){
         if (!ForreachBunkers.StaticConfig.get().getBunkerGenerated()){
