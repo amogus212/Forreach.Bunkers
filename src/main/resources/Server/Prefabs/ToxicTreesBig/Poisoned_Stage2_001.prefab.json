@@ -1,0 +1,1238 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 10,
+  "anchorY": 3,
+  "anchorZ": 3,
+  "blocks": [
+    {
+      "x": 5,
+      "y": 14,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "z": 2,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "z": 7,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "z": 2,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "z": 4,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "z": 7,
+      "name": "Empty"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "z": 8,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": 1,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 5,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 6,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "z": 7,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": -1,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "z": 7,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": -3,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": -2,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "z": -1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": -1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "z": 1,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "z": 2,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "z": 3,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": 4,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": 5,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "z": 4,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "z": 4,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "z": -3,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "z": -2,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "z": -1,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "z": 0,
+      "name": "Wood_Poisoned_Trunk_Full"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "z": 0,
+      "name": "Wood_Poisoned_Branch_Long"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "z": 1,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "z": 2,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 4
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "z": 0,
+      "name": "Wood_Poisoned_Branch_Long",
+      "rotation": 5
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 20,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "z": 1,
+      "name": "Empty"
+    }
+  ]
+}

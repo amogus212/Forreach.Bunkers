@@ -116,6 +116,12 @@ public class SpawnBunker {
         }
         for (i = 0; i < RoomList.length; i++) {
             final BlockSelection room = RoomList[i];
+
+            if (room == null) {
+                LOGGER.atWarning().log("Null room at index " + i);
+                continue;
+            }
+
             final Vector3i pos = RoomPositionsList[i];
             final int[] direction = RoomDirectionsList[i];
 

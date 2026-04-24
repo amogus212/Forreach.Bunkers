@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Lead_Block.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Bunker_Spawn_Point_Debug.png",
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "RandomRotation": "YawStep90",
+    "BlockParticleSetId": "Ore",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Blocks/_Debug/Texture.png"
+      }
+    ],
+    "BlockSoundSetId": "Ore",
+    "ParticleColor": "#4e4e4e",
+    "BlockEntity": {
+      "Components":{
+        "BunkerSpawnBlock": {}
+      }
+    }
+  }
+}

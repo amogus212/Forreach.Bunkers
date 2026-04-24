@@ -30,4 +30,4 @@ items.PortalKey_ToxicFields.name=Ключ токсичних полів
 items.PortalKey_ToxicFields.description=Ключ до знищеного світу.
 
 portals.ToxicField.name=Токсичні поля
-portals.ToxicField.description=Місце знищене портальною енергією.Має великий бункер побудований в центрі,і свинець в озерах навколо
+portals.ToxicField.description=Місце знищене портальною енергією.Можна зустріти бункери,і свинець в озерах навколо

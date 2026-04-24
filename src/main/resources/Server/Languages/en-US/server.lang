@@ -15,7 +15,7 @@ items.BunkerShielding.name=Bunker shielding
 
 items.LeadSwordMithril.name =Lead-infused mithril sword
 items.LeadSwordAdamantite.name =Lead-infused adamantium sword
-items.LeadSwordThorium.name =Lead-infused thorim sword
+items.LeadSwordThorium.name =Lead-infused thorium sword
 items.LeadSwordCobalt.name =Lead-infused cobalt sword
 
 items.LeadDaggerCobalt.name =Lead-infused cobalt daggers
@@ -30,4 +30,4 @@ items.PortalKey_ToxicFields.name=Toxic field key
 items.PortalKey_ToxicFields.description=A key to a destroyed world.
 
 portals.ToxicField.name=Toxic field
-portals.ToxicField.description=A place destroyed from portal energy.Has a giant bunker build in center,and lead in
+portals.ToxicField.description=A place destroyed from portal energy.Has bunkers scattered around,and lead in toxic lakes
