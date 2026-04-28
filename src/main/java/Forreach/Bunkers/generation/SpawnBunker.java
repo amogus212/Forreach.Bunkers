@@ -46,16 +46,6 @@ public class SpawnBunker {
                     "Please try to be in default world or reinstall the mod.Contact the author if the issue persists");
             return 1;
         }
-        /*x/z/-x/-z
-        0/0-Corridor x axis
-          1/1-Corridor z axis
-          2/10-Two way intersection
-          3/20-Three way intersection with missing neg Z
-          4/21-Three way intersection with missing neg X
-          5/22-Three way intersection with missing X
-          6/23-Three way intersection with missing Z
-          7/3-Four way intersection
-         */
         CommandSender ComSender = new CommandSender() {
             @Override
             public String getDisplayName() {
